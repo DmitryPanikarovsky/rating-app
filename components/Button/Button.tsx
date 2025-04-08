@@ -1,6 +1,7 @@
 import cn from "classnames";
 import { ButtonHTMLAttributes, DetailedHTMLProps, JSX, ReactNode } from "react";
 import styles from "./Button.module.scss";
+import ArrowIcon from "./arrow.svg";
 
 interface ButtonProps extends DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement> {
     children: ReactNode;
@@ -32,7 +33,7 @@ export const Button = ({ appearance, arrow = "none", children, className, ...pro
                         className
                     )}
                 >
-                    d
+                    <ArrowIcon />
                 </span>
             )}
         </button>
