@@ -25,7 +25,7 @@ export default function Home(): JSX.Element {
                     10 000 ₽
                 </Tag>
                 <Tag color="ghost" size="s">
-                    Дизайн
+                    Гарантия трудоустройства
                 </Tag>
                 <Tag color="primary" size="s">
                     Подготовка макетов
@@ -36,11 +36,11 @@ export default function Home(): JSX.Element {
                 <Tag color="primary" size="s">
                     Графический дизайн
                 </Tag>
-                <Tag color="orange" size="s">
+                <Tag color="orange" size="s" href="https://hh.ru/?hhtmFrom=resume_search_result">
                     hh.ru
                 </Tag>
             </div>
-            <Rating rating={rating} isEditable setRating={setRating}/>
+            <Rating rating={rating} setRating={setRating} isEditable />
         </div>
     );
 }

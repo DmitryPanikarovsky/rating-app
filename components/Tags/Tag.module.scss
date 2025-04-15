@@ -16,12 +16,13 @@
 }
 
 .ghost {
-    border: 1px solid var(--gray-light);
+    border: 1px solid var(--grey-blue);
     color: var(--primary-text);
 }
 
 .grey {
-    background: var(--gray-light);
+    border: 1px solid #a7a7a7;
+    background: var(--grey-blue);
     color: var(--white);
 }
 
@@ -35,6 +36,7 @@
 .orange {
     background: var(--orange-accent);
     color: var(--secondary-text);
+    font-weight: 700;
     border: 1px solid var(--orange);
 }
 

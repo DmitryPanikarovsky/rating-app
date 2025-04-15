@@ -11,8 +11,18 @@ interface TagProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTM
 
 export const Tag = ({ size = "s", color = "ghost", href, children, className, ...props }: TagProps) => {
     return (
-        <div className={cn(styles.tag, styles[size], styles[color], className)} {...props}>
-            {href ? <a href="href">{children}</a> : <>{children}</>}
-        </div>
+        <>
+            {href ? (
+                <a href={href} className={styles.tag}>
+                    <div className={cn(styles.tag, styles[size], styles[color], className)} {...props}>
+                        {children}
+                    </div>
+                </a>
+            ) : (
+                <div className={cn(styles.tag, styles[size], styles[color], className)} {...props}>
+                    {children}
+                </div>
+            )}
+        </>
     );
 };
