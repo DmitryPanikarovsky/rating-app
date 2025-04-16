@@ -23,20 +23,19 @@ a {
 }
 
 :root {
-    --primary: #4b39ef;
+    --primary: #7653fd;
     --green: #31bfae;
     --orange: #ee8b60;
     --primary-accent: #dbd7ff;
     --green-accent: #c3f1eb;
     --orange-accent: #fadccf;
-    --red: #ff505a;
     --black: #14181b;
     --white: #ffffff;
     --grey-blue: #b3c0d9;
     --primary-text: #232321;
     --secondary-text: #5a5a5a;
     --background: #f5f6f8;
-    --gray-light:#ebebeb;
+    --gray-light: #ebebeb;
     --font: var(--font-montserrat);
 }
 

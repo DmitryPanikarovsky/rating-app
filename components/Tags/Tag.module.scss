@@ -33,11 +33,11 @@
     border: 1px solid var(--green);
 }
 
-.orange {
-    background: var(--orange-accent);
-    color: var(--secondary-text);
+.red {
+    background: rgb(255, 149, 149);
+    color: var(--primary-text);
     font-weight: 700;
-    border: 1px solid var(--orange);
+    border: 2px solid red;
 }
 
 .primary {

@@ -6,7 +6,7 @@ interface TagProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTM
     children: ReactNode;
     href?: string;
     size?: "s" | "m";
-    color?: "ghost" | "orange" | "grey" | "green" | "primary";
+    color?: "ghost" | "red" | "grey" | "green" | "primary";
 }
 
 export const Tag = ({ size = "s", color = "ghost", href, children, className, ...props }: TagProps) => {
